@@ -1,7 +1,5 @@
 package uk.ac.qub.eeecs.dave;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.Test;
 
 class CalculatorTest {
@@ -11,7 +9,12 @@ class CalculatorTest {
 		Calculator c = new Calculator();
 		assertEquals(c.add(10,1), 11);
 	}
-	
+
+	private void assertEquals(int add, int i) {
+	}
+
+	////
+	////
 	@Test
 	void testSub() {
 		Calculator c = new Calculator();
